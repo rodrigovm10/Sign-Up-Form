@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Project Sign-Up Form</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,400;0,700;1,300&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+	</head>
+	<body>
+		<main class="content">
+			<section class="side-section">
+				<div class="banner"><img src="image/odin-lined.png" alt="" />ODIN</div>
+				<p class="credits">
+					Photo by
+					<a
+						href="https://unsplash.com/es/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+						>Halie West</a
+					>
+					on
+					<a
+						href="https://unsplash.com/es?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+						>Unsplash</a
+					>
+				</p>
+			</section>
+			<section class="form-section">
+				<p class="first">
+					This is not a real online service! You know you need something like
+					this in your life to help you realize your deepest dreams. Sign up
+					<em>now</em> to get started.
+				</p>
+				<p class="second">You know you want to</p>
+				<form method="post">
+					<div class="input-section">
+						<h3>Let's do this!</h3>
+						<div class="inputs">
+							<div>
+								<div class="input">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="input">
+									<label for="lastName">Last Name</label>
+									<input type="text" name="lastName" id="lastName" />
+								</div>
+							</div>
+							<div>
+								<div class="input">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" />
+								</div>
+								<div class="input">
+									<label for="phone">Phone Number</label>
+									<input type="number" name="phone" id="phone" max="10" />
+								</div>
+							</div>
+							<div>
+								<div class="input">
+									<label for="password">Password</label>
+									<input type="password" name="password" id="password" />
+								</div>
+								<div class="input">
+									<label for="confirmPassword">Confirm Password</label>
+									<input type="password" name="confirm" id="confirm" />
+								</div>
+							</div>
+						</div>
+						<button type="submit">Create Account</button>
+					</div>
+				</form>
+				<p class="account">Already have an account? <a href="#">Log In</a></p>
+			</section>
+		</main>
+	</body>
+</html>
